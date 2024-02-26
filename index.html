@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav class="bg-gray-800 text-white p-4 flex justify-around fixed top-0 w-full z-50"> 
+        <a  class="px-2">Home</a>
+        <a  class="px-2">Movies</a>
+        <a class="px-2">TV Drama</a>
+        <a class="px-2">Contact Us</a>
+    </nav>
+    <div class="banner bg-cover bg-center text-white text-center py-20" style="background-image: url('https://wallpapers.com/images/featured/the-boys-1fe3hnl120ch1bc6.webp');">
+        <h1 class="text-5xl font-bold">Welcome to Movie App</h1>
+        <p class="text-xl mt-4">This app is designed for movie lovers</p>
+    </div>
+    <section id="popular-movies" class="p-4">
+        <h2 class="text-2xl font-bold mb-4">Popular Movies</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4"></div>
+    </section>
+    <section id="top-rated-movies" class="p-4">
+        <h2 class="text-2xl font-bold mb-4">Top Rated Movies</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4"></div>
+    </section>
+    <section id="upcoming-movies" class="p-4">
+        <h2 class="text-2xl font-bold mb-4">Upcoming Movies</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4"></div>
+    </section>
+    
+    <footer class="bg-gray-800 text-white p-4 text-center">
+        Copyright @ 2024
+    </footer>
+</body>
+</html>
